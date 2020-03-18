@@ -92,6 +92,12 @@ footer{
   padding: 40px;
   font-size: 14px;
   color: #656565;
+  a {
+    color: #656565;
+    &:visited{
+      color: #656565;
+    }
+  }
 }
 @media (max-width: 1024px) {
   html {
