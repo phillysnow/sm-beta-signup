@@ -87,6 +87,8 @@ header {
             color: white;
             height: 60px;
             width: 60%;
+            -webkit-appearance: none;
+            -moz-appearance: none;
             &:focus {
               border: 1px solid rgba(255, 255, 255, 1);
             }
@@ -100,6 +102,9 @@ header {
             color: black;
             border: none;
             height: 60px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            cursor: pointer;
           }
         }
       }
